@@ -1,0 +1,231 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 14px;
+  font-family: "Raleway";
+  color: hsl(0, 0%, 100%);
+  overflow-x: hidden;
+}
+body,
+html {
+  background: hsl(218, 28%, 13%);
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 8% 5% 2% 5%; /*top right bottom left padding*/
+  background: hsl(218, 28%, 15%);
+}
+.logo {
+  max-width: 150px;
+  height: auto;
+}
+.navlinks-container a {
+  text-decoration: none;
+  color: hsl(0, 0%, 100%);
+  padding: 10px;
+  font-weight: 400;
+}
+h1 {
+  font-size: 28px;
+  font-weight: 700px;
+}
+.intro {
+  /* display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; */
+  width: 100vw;
+  height: 148vh;
+  background: hsl(217, 28%, 15%) url("images/bg-curvy-desktop.svg") bottom
+    no-repeat;
+  background-size: 95rem;
+  text-align: center;
+}
+.intro-desc {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 3rem;
+}
+.intro-img {
+  width: 500px;
+  height: 400px;
+}
+.intro-caption {
+  line-height: 2.5rem;
+  width: 470px;
+}
+.intro-para {
+  margin-top: 2.5rem;
+  line-height: 1.5rem;
+  width: 435px;
+  font-size: 14px;
+}
+.intro-btn {
+  margin-top: 1.75rem;
+}
+.btn1 {
+  width: 180px;
+  padding: 10px 0;
+  border-radius: 50px;
+  border: none;
+  outline: none;
+  background: linear-gradient(to right, hsl(176, 68%, 64%), hsl(198, 60%, 50%));
+}
+.features {
+  gap: 94px 165px;
+  text-align: center;
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 0 12.5%;
+}
+.features h3 {
+  font-size: 18px;
+  width: 100%;
+  margin-top: 1rem;
+}
+.features p {
+  margin-top: 0.75rem;
+  line-height: 1.3rem;
+  font-size: 14px;
+  width: 100%;
+}
+.desc {
+  margin: auto 0;
+  display: flex;
+  margin: 9% 8%;
+}
+.desc-image {
+  max-width: 50%;
+  background-size: contain;
+}
+.desc-right {
+  margin-left: 5%;
+  margin-top: 10%;
+  width: 50%;
+  /* line-height: 1.5rem; */
+}
+.desc-heading {
+  font-size: 25px;
+  font-weight: 700;
+  width: 50%;
+  margin-bottom: 2%;
+}
+.desc-para {
+  line-height: 1.5rem;
+}
+.desc-para-padding {
+  margin-bottom: 2%;
+}
+.desc-para2 {
+  margin-top: 2%;
+}
+.arrow-icon {
+  padding-top: 4%;
+}
+.desc-right a {
+  color: hsl(176, 68%, 64%);
+  font-size: 12px;
+}
+.bg-quotes {
+  position: absolute;
+  margin-left: 10%;
+  margin-top: 1.5%;
+  z-index: 1;
+}
+.card-container {
+  display: flex;
+  margin: 8% 8%;
+  padding-bottom: 16%;
+}
+.card {
+  box-shadow: 5px 5px 20px hsl(217, 28%, 15%);
+  margin-top: 50px;
+  background-color: hsl(219, 30%, 18%);
+  margin-left: 3%;
+  padding: 3% 3%;
+  z-index: 2;
+}
+.card p {
+  font-size: 12px;
+  line-height: 1.1rem;
+}
+h5 {
+  font-size: 12px;
+  font-weight: 700;
+}
+small {
+  font-size: 10px;
+}
+.profile {
+  display: flex;
+  margin-top: 8%;
+}
+.profile-img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 8px;
+  object-fit: cover;
+}
+.profile-details {
+  margin-left: 2%;
+}
+
+.access {
+  padding: 5% 5%;
+  box-shadow: 5px 5px 20px hsl(217, 28%, 13%);
+  height: auto;
+  width: auto;
+  margin: -10% 21%;
+  background-color: hsl(218, 28%, 14%);
+  position: absolute;
+}
+.access h1 {
+  text-align: center;
+}
+.access p {
+  text-align: center;
+  font-family: "Open Sans" sans-serif;
+  line-height: 1.5rem;
+}
+.email {
+  display: flex;
+}
+.mail-btn {
+  width: 150px;
+  border-radius: 30px;
+  border: none;
+  outline: none;
+  padding: 2.5% 0%;
+  cursor: pointer;
+  background: linear-gradient(to right, hsl(176, 68%, 64%), hsl(198, 60%, 50%));
+  font-weight: 400;
+}
+.access input {
+  border-radius: 30px;
+  padding: 2.5% 3%;
+  width: 400px;
+  height: 100%;
+  outline: none;
+  border: none;
+  margin-right: 4%;
+}
+/* Using the mobile first design
+@media (min-width: 320px) {
+  body {
+    background-image: url("images/bg-curvy-mobile.svg");
+    background-repeat: no-repeat;
+  }
+} */
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
