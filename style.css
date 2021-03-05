@@ -177,11 +177,11 @@ small {
 
 .access {
   padding: 5% 5%;
-  box-shadow: 5px 5px 20px hsl(217, 28%, 13%);
+  box-shadow: 3px 3px hsl(0, 0%, 5%);
   height: auto;
   width: auto;
   margin: -10% 21%;
-  background-color: hsl(218, 28%, 14%);
+  background-color: hsl(217, 28%, 15%);
   position: absolute;
 }
 .access h1 {
@@ -192,10 +192,19 @@ small {
   font-family: "Open Sans" sans-serif;
   line-height: 1.5rem;
 }
-.email {
+.access input {
+  border-radius: 30px;
+  padding: 2.5% 3%;
+  width: 400px;
+  height: 100%;
+  outline: none;
+  border: none;
+  margin-right: 4%;
+}
+.access-email {
   display: flex;
 }
-.mail-btn {
+.access-email-btn {
   width: 150px;
   border-radius: 30px;
   border: none;
@@ -205,14 +214,66 @@ small {
   background: linear-gradient(to right, hsl(176, 68%, 64%), hsl(198, 60%, 50%));
   font-weight: 400;
 }
-.access input {
-  border-radius: 30px;
-  padding: 2.5% 3%;
-  width: 400px;
-  height: 100%;
-  outline: none;
-  border: none;
-  margin-right: 4%;
+
+.info {
+  margin: auto 0;
+  padding: 15% 6% 10% 6%;
+  background: hsl(216, 53%, 9%);
+}
+.info-logo-img {
+  width: 15%;
+  margin-top: 5%;
+}
+.info-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5%;
+}
+.info-location-img {
+  margin-bottom: 45px;
+}
+.info-location-span {
+  text-align: left;
+  display: inline-block;
+  line-height: 1.75rem;
+  margin-left: 15px;
+}
+.info-item-content {
+  margin-top: 20px;
+}
+/* .info-item {
+  display: block;
+}
+
+.info-item a {
+  color: white;
+  text-decoration: none;
+  line-height: 2rem;
+}
+
+.info-content li {
+  margin-top: 15%;
+}
+.info-content img {
+  margin-right: 15px;
+} */
+.info-list-item {
+  margin-top: 15px;
+}
+.social-media {
+  display: flex;
+  text-align: right;
+}
+.social-media-icon {
+  color: white;
+  margin-left: 10px;
+  border-radius: 50%;
+  border: white 1px solid;
+  padding: 1% 6%;
+  font-size: 35px;
+  cursor: pointer;
+  width: 25px;
+  height: 25px;
 }
 /* Using the mobile first design
 @media (min-width: 320px) {
@@ -225,7 +286,8 @@ small {
 .attribution {
   font-size: 11px;
   text-align: center;
+  padding: 10px 0;
 }
 .attribution a {
-  color: hsl(228, 45%, 44%);
+  color: hsl(0, 0%, 100%);
 }
