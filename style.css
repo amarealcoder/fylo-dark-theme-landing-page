@@ -275,12 +275,12 @@ small {
     height: 105vh;
     background: hsl(217, 28%, 15%) url("images/bg-curvy-mobile.svg") bottom
       no-repeat;
-    background-size: 35rem;
-    background-position: right 0vw bottom 35vh;
+    background-size: 30rem;
+    background-position: right 0vw bottom 40vh;
     text-align: center;
   }
   .intro-img {
-    margin-top: 75px;
+    margin-top: 85px;
     width: 250px;
     height: 200px;
   }
