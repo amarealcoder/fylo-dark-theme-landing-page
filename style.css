@@ -93,7 +93,7 @@ nav {
 }
 .desc-image {
   max-width: 50%;
-  object-fit: cover;
+  object-fit: contain;
 }
 .desc-right {
   margin-left: 5%;
@@ -275,8 +275,8 @@ small {
     height: 105vh;
     background: hsl(217, 28%, 15%) url("images/bg-curvy-mobile.svg") bottom
       no-repeat;
-    background-size: 20rem;
-    background-position: right 0vw bottom 50vh;
+    background-size: 25rem;
+    background-position: right 0vw bottom 45vh;
     text-align: center;
   }
   .intro-img {
@@ -359,7 +359,7 @@ small {
     /* margin-top: 1%; */
     width: 20px;
     height: auto;
-    object-fit: contain;
+    object-fit: cover;
   }
   .info-location-span {
     display: inline-block;
