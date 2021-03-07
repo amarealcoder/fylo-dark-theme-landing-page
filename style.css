@@ -93,7 +93,7 @@ nav {
 }
 .desc-image {
   max-width: 50%;
-  background-size: contain;
+  object-fit: cover;
 }
 .desc-right {
   margin-left: 5%;
@@ -275,11 +275,12 @@ small {
     height: 105vh;
     background: hsl(217, 28%, 15%) url("images/bg-curvy-mobile.svg") bottom
       no-repeat;
-    background-size: 35rem;
+    background-size: 20rem;
+    background-position: right 0vw bottom 50vh;
     text-align: center;
   }
   .intro-img {
-    margin-top: 50px;
+    margin-top: 70px;
     width: 250px;
     height: 200px;
   }
@@ -290,7 +291,7 @@ small {
     font-size: 14px;
   }
   .features {
-    margin-top: 23rem;
+    margin-top: 10rem;
     grid-template-columns: auto;
   }
   .desc {
@@ -300,7 +301,7 @@ small {
   }
   .desc-image {
     max-width: 50%;
-    background-size: contain;
+    object-fit: contain;
   }
   .desc-right {
     margin-top: 4rem;
