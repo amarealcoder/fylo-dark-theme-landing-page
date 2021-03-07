@@ -275,7 +275,7 @@ small {
     height: 105vh;
     background: hsl(217, 28%, 15%) url("images/bg-curvy-mobile.svg") bottom
       no-repeat;
-    background-size: 2rem;
+    background-size: 28rem;
     background-position: right 0vw bottom 45vh;
     text-align: center;
   }
